@@ -1,0 +1,26 @@
+.nav {
+    background-color: black;
+    height: 50px;
+    color:white;
+    width:850px;
+} 
+
+.nav-title {
+    font-weight:900;
+    margin-left:200px;
+}
+
+.nav-secondary {
+    display:flex;
+}
+
+.navlinks {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.signout {
+    background-color:aqua;
+    margin-left: 75px;
+}

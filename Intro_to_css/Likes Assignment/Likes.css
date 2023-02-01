@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maincontent{
+    height: 800px;
+    width: 600px;
+    margin-left: 350px;
+    background-color:white;
+
+}
+
+.navbar {
+    width: 800px;
+    height: 75px;
+    color:white;
+    background-color: black;
+}
+
+#titlename {
+    color:white;
+    padding:20px;
+    font-size:1.7rem;
+    font-weight:normal;
+}
+
+
+#feed {
+    margin-left:300px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    align-content: center;
+}
+
+.flexed {
+    display: flex;
+}
+
+.leftside {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+.buttonadd {
+    text-align: left;
+    font-size:1rem;
+    color:blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.rightside {
+    background-color:white;
+    height: 600px;
+    width: 450px;
+}
+
+.Neil {
+    border-style: solid;
+    border-color: black;
+    border-width: 4px;
+    height: 150px;
+    width: 550px;
+    background-color: white;
+    margin-left: 50px;
+    display:flex;
+    gap:120px;
+    padding:20px;
+}
+
+.nichole {
+    border-style: solid;
+    border-color: black;
+    height: 150px;
+    width: 550px;
+    border-width: 4px;
+    background-color:white;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-bottom: 25px;
+    display:flex;
+    gap: 100px;
+    padding: 20px
+}
+
+.jim {
+    border-style: solid;
+    border-color: black;
+    height: 150px;
+    width: 550px;
+    border-width: 4px;
+    background-color:white;
+    border-style: solid;
+    border-color: black;
+    margin-left: 50px;
+    display:flex;
+    gap:130px;
+    padding:20px;
+}
+
+#likebtn {
+    color:black;
+    background-color: gold;
+    height: 35px;
+    width:80px;
+    margin: 0 auto;
+    box-shadow: 5px 5px black;
+    font-weight: bold;
+    font-size:1.2rem;
+}

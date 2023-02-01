@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="buttonclicker.css">
+
+</head>
+<body>
+    <div class="maincontent">
+        <div class="dojonarynavbar">
+            <h1>Dojonary</h1>
+            <form action="https://www.google.com/search" method="get" class="search-bar" id="search">
+                <input type="text" placeholder="Search" class="searchbar">
+            </form>
+            <button class =button onclick = "loginpressed(this)">Login</button>
+        </div>
+        <div class="flexed">
+        <div class="left-container">
+            <div class="ninja1">
+                <h2>ninja</h2>
+                <h3>noun</h3>
+                <h4>Plural: <span style="font-style:italic">Ninjas</span></h4>
+                <p>A practitioner skilled in <br> the <span style="text-decoration: underline; color:blue;">Japanese</span> art of <span style="text-decoration: underline; color:blue;">ninjutsu</p>
+                <button id="thirteen" type="button" onclick="loading()">13 likes</button>
+            </div>
+            <div class="ninja2">
+                <h2>ninja</h2>
+                <h3>noun</h3>
+                <h4>Plural: <span style="font-style:italic">Ninjas</span></h4>
+                <p>A <span style="text-decoration: underline; color:blue;">programmer</span> who breaks down problems with <span style="text-decoration: underline; color:blue;">zen</span>-like <br>focus</p>
+                <button id="thirtyseven" type="button" onclick="loading()">37 likes</button>
+            </div>
+        </div>
+        <div class="right-container">
+            <div class="dojonarybox">
+                <h5>Dojonary is defined by <span style="font-weight:bold">YOU</span></h5>
+                <button id="Add" type="button" onclick ="remove(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="buttonclicker.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+    padding: 0px;
+    margin:0px;
+}
+
+.navbar {
+    background-color: black;
+    color:white;
+    height:80px;
+    display:flex;
+}
+
+.navbar-left {
+    display:flex;
+    padding:20px;
+    gap:30px;
+}
+
+#searchbar {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.button {
+    background-color:orange;
+    padding: 5px;
+    border: 3px solid black;
+}
+
+.header {
+    background-color:pink;
+    height:360px;
+}
+
+.main {
+    width:1000px;
+    /* background-color: aqua; */
+    height:1200px;
+    margin: 0 auto;
+    gap: 30px;
+    display:flex;
+}
+
+.col-1 {
+    background-color: crimson;
+    flex:1.7;
+}
+
+.post {
+    height: 400px;
+    background-color: yellow;;
+    border:gray solid black 2px;
+    margin-bottom: 30px;
+
+}
+
+.col-2 {
+    flex:1.7;
+    background-color: orange;
+}
+
+.desc-box {
+    height: 400px;
+    background-color: green;
+    border:gray solid 2px;
+    margin-bottom: 30px;
+}

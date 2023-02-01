@@ -1,0 +1,31 @@
+.btn-search, .btn-add, .btn-primary {
+    display: block;
+    margin-bottom: 15px;
+    height: 50px;
+}
+
+.btn-search {
+    font-weight: 700;
+    width: 100px;
+    border-radius: 20px;
+    color: cyan;
+    border: 2px solid cyan;
+    background-color: white;
+}
+
+.btn-add {
+    font-weight: 700;
+    width: 50px;
+    background-color: aquamarine;
+    color: white;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-primary {
+    width: 175px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+}

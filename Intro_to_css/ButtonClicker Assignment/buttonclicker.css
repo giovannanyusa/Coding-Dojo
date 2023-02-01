@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.maincontent {
+    height: 560px;
+    width: 1000px;
+    background-color: white;
+    margin-left: 500px;
+
+}
+
+.flexed {
+    display: flex;
+}
+
+.dojonarynavbar {
+    height: 60px;
+    width: 800px;
+    background-color:grey;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    margin-left:100px;
+    gap: 150px;
+}
+
+h1 {
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.searchbar {
+    margin-top:15px;
+    width: 250px;
+}
+
+.button {
+    height:20px;
+    width:60px;
+    margin-top: 15px;
+    padding: 2px;
+    background-color:cornflowerblue;
+    color:white;
+    box-shadow: 3px 3px black;
+}
+
+.left-container {
+    height: 450px;
+    width: 400px;
+    background-color:white;
+    margin-left: 100px;
+}
+
+.ninja1 {
+    height:200px;
+    width: 450px; 
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+}
+h2 {
+    font-size: 2.0rem;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+h3 {
+    margin-left: 25px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight:normal;
+}
+
+#thirteen {
+    height:30px;
+    width:70px;
+    margin-left: 20px;
+    margin-top:20px;
+    background-color:gold;
+    color:black;
+    box-shadow: 3px 3px black;
+}
+
+.ninja2 {
+    height: 200px;
+    width: 450px; 
+    margin-top: 20px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+#thirtyseven {
+    height:30px;
+    width:70px;
+    background-color:gold;
+    margin-left:20px;
+    color:black;
+    box-shadow: 3px 3px black;
+}
+
+/* p {
+    margin-left: 120px;
+    margin-bottom: 30px;
+} */
+
+.right-container {
+    height: 450px;
+    width: 400px;
+    background-color: white;
+    margin-left:100px;
+}
+
+.dojonarybox {
+    height: 125px;
+    width: 200px;
+    background-color: white;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: black;
+    padding:10px;
+    font-weight:normal;
+    font-size:2.0rem;
+}
+
+#Add {
+    width: 200px;
+    height:30px;
+    margin-top: 15px;
+    background-color:green;
+}
+
+p {
+    margin-left: 150px;
+    font-size: 1.2rem;
+}
+

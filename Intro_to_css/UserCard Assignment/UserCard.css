@@ -1,0 +1,28 @@
+.Banner{
+    wdith:800px;
+    height:75px;
+    background-color:aqua;
+}
+.JaneDoeBlock{
+    border: 5px solid gray;
+    width:800px;
+    height: 375px;
+}
+.usercircle {
+    margin-top:10px;
+}
+h4{
+    text-align:left;
+    font-size: 1.7rem;
+}
+h5 {
+    text-align:left;
+    font-size:1rem;
+}
+h6 {
+    text-align: left;
+    font-size:1rem;
+    color:blue;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}

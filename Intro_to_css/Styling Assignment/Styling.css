@@ -1,0 +1,21 @@
+h1 {
+    font-style: @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    color: white;
+    background-color: black;
+    font-size:x-large;
+}
+
+h2 {
+    font-style: @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    background-color:rebeccapurple;
+    color:white;
+    font-style:italic;
+    text-align:center;
+}
+
+h3 {
+    font-style:@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+    background-color: cornflowerblue;
+    text-align:right;
+    text-decoration:underline;
+}
